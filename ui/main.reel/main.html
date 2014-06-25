@@ -13,14 +13,6 @@
                 "element": {"#": "main"}
             }
         },
-        "button": {
-            "prototype": "digit/ui/button.reel",
-            "properties": {
-                "element": {"#": "button"},
-                "enabled": true,
-                "label": "Button"
-            }
-        },
         "text": {
             "prototype": "digit/ui/text.reel",
             "properties": {
@@ -31,9 +23,8 @@
     </script>
 </head>
 <body>
-    <div data-montage-id="main" data-montage-skin="light" class="Main">
+    <div data-montage-id="main" data-montage-skin="light" class="Main" data-arg="First montageJs app" data-param="Some title">
         @button
-        <button data-montage-id="button"></button>
     </div>
 </body>
 </html>
