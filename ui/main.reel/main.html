@@ -18,6 +18,13 @@
             "properties": {
                 "value": "Text"
             }
+        },
+        "title": {
+            "prototype": "digit/ui/title.reel",
+            "properties": {
+                "element": {"#": "title"},
+                "value": "My first step"
+            }
         }
     }
     </script>
@@ -25,6 +32,7 @@
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="Main" data-arg="First montageJs app">
         @button
+        <h1 data-montage-id="title"></h1>
     </div>
 </body>
 </html>
